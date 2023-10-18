@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header Section CSS Starts */
+
+.header{
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left_header{
+    width: 50%;
+    text-align: center;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 155px;
+    
+}
+
+.navbar img{
+    height: 50px;
+}
+
+.content{
+    margin: 40px;
+}
+
+.content h1{
+    color: #5b5858;
+    width: 63%;
+}
+
+.content h3{
+    color: #5b5858;
+    width: 92%;
+    margin: 5px 0;
+}
+
+.left_header .button .login{
+    border: none;
+    padding: 20px 30px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.left_header .button .signup{
+    background-color: #000;
+    color: #fff;
+    padding: 12px 30px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.left_header .location{
+    width: 100%;
+    height: 40px;
+    margin-right: 3rem;
+}
+
+.location input{
+    padding: 12px 50px;
+    margin-bottom: 3px;
+    text-align: left;
+    text-shadow: #5b5858;
+}
+
+
+.location button{
+    padding: 12px 30px;
+    cursor: pointer;
+    background-color: #ffa550;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+}
+
+.left_text{
+    width: fit-content;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    color: #877d7d;
+    margin-left: 10.3rem;
+}
+
+#left_bottom{
+    margin-right: 0.8rem;
+    letter-spacing: 0;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.right_header{
+    background-image: url(img/right_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+}
+
+/* header Section CSS Ends*/
+
+
+/* Content Section CSS Starts */
+
+.content_section{
+    height: 50vh;
+    background-color: #2b1e16;
+}
+.content_section .items{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    height: 50vh;
+}
+
+.content_section .one{
+    color: #cec1c1;
+    width: 30vw;
+}
+
+.content_section .one .items_content{
+    padding: 18px 0;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+.content_section .one .items_content h3{
+    padding: 10px 0;
+}
+
+.content_section .items img{
+    height: 50%;
+    width:  25%;
+}
+
+/* Content Section CSS Ends */
+
+
+/* App Section CSS Starts */
+
+.app_section{
+    height: 65vh;
+    width: 100%;
+}
+
+.app_section .app_section_content{
+    height: 65vh;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app_section .app_section_content .app_left_sec{
+    padding: 6rem 5.9rem;
+
+}
+
+.app_left_sec h1{
+    font-size: 2.5rem;
+}
+
+.app_left_sec .h_1{
+    padding-bottom: 15px;
+}
+
+.app_left_sec p{
+    font-size: 1.2rem;
+    color: #808080;
+    letter-spacing: 0.4px;
+}
+
+.app_section .app_section_content .app_right_sec{
+    display: flex;
+}
+
+.app_section .app_section_content .app_right_sec img{
+    height: 26rem;
+    width: 20rem;
+}
+
+.app_section .app_section_content .app_right_sec .img2{
+    padding-top: 3rem;
+}
+
+.app_buttons{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.app_buttons img{
+    height: 3.5rem;
+    width: 10.6rem;
+    cursor: pointer;
+}
+
+/* App Section CSS Ends */
+
+
+/* Contact Section Starts */
+
+.contact{
+    background-color: #000;
+}
+
+.contact_sec{
+    background-color: #000;
+    color: #f5f5f5;
+    height: 70vh;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid #5b5858;
+}
+
+.contact_sec .contact_con{
+    padding: 0 1.6rem;
+    text-align: left;
+    width: 12rem;
+    margin: 0 3rem;
+}
+
+.contact_con h3{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: #706868;
+    font-size: 1rem;
+    letter-spacing: 0.4px;
+}
+
+.contact_con p{
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+#contact_four{
+    width: 12rem;
+    margin: 0 3rem;
+    padding: 0 1.6rem;
+}
+
+
+
+#contact_four img{
+    display: block;
+    height: 3.5rem;
+    width: 10.6rem;
+    cursor: pointer;
+    margin: 40% 19px;
+}
+
+/* Contact Section Ends */
+
+
+/* Footer Section CSS STARTS */
+
+footer{
+    height: 11vh;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer_sec{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid #ff0000; */
+    height: 10vh;
+}
+
+.footer_sec .left img{
+    height: 3rem;
+    width: 9.2rem;
+}
+
+.footer_sec .middle{
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+} 
+
+.footer_sec .right img{
+    height: 1.4rem;
+    padding: 1rem 0.8rem;
+    cursor: pointer;
+}
+/* Footer Section CSS ENDS */
