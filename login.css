@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid #000; */
+    background-image: url('./img/login_signup_ing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_head{
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    padding: 15px 20px;
+}
+
+.login_head p{
+    /* border: 2px solid #000; */
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    margin: 12px 0;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+form input::placeholder{
+    color: #808080;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 11px;
+}
+
+.login_head p{
+    padding: 15px 15px;
+}
+
