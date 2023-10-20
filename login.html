@@ -3,21 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Login</title>
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     <div class="container">
-        <div class="login">
+        <div class="login_items">
+            <p class="login_p">Login
+                <p class="signup"><a href="/signup.html">OR SIGNUP INTO NEW ACCOUNT</a></p>
+            </p>
             <div class="login_head">
-                <p>Login</p>
-
-                <form action="">
-                    <input type="text" name="email" id="email" placeholder="Enter your email">
-                    <input type="password" name="password" id="password" placeholder="Enter your password">
-                    <button>Login</button>
-                </form>
+                    <form action="">
+                        <input type="text" name="email" id="email" placeholder="Enter your email">
+                        <input type="password" name="password" id="password" placeholder="Enter your password">
+                        <button>Login</button>
+                    </form>
+            </div>
+    
+            <div class="login_google">
+                <p class="message">Don't Wanna Type Much !</p>
+    
+                <div class="text_link">
+                    <p>Just Click </p>
+                    <span class="material-symbols-outlined">
+                        trending_flat
+                    </span>
+                    <img src="img/google.png" alt="google_icon">
+                </div>
             </div>
         </div>
     </div>
