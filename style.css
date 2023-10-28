@@ -81,6 +81,7 @@
     margin-bottom: 3px;
     text-align: left;
     text-shadow: #5b5858;
+    margin-top: 5px;
 }
 
 
@@ -109,7 +110,7 @@
 }
 
 .right_header{
-    background-image: url(img/right_header.jpg);
+    background-image: url(img/right_header.webp);
     background-repeat: no-repeat;
     background-size: cover;
     width: 40%;
@@ -312,3 +313,16 @@ footer{
     cursor: pointer;
 }
 /* Footer Section CSS ENDS */
+
+
+/* MEDIA QUERY */
+@media (max-width: 1329px){
+   body{
+        background-color: #961919;
+   } 
+
+   .header, .content_section, .app_section, .contact{
+        width: 101.5vw;
+   }
+
+}

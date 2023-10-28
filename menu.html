@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Taste</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+
+    <!-- Header Starts -->
+    <div class="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="logo">
+        </div>
+
+        <div class="nav_button">
+            <button type="button" class="home"><a href="/index.html">Home</a></button>
+            <a href="/carts.html"><img src="img/menu_img/cart_img.png" alt=""></a>
+            <p id="cart_items_cnt">0</p>
+            <div id="ordered_items">total price: <span id="bill">0</span></div>
+        </div>
+    </div>
+    <!-- Header Endss -->
+
+    <!-- Menu Card Starts -->
+    <div class="container">
+        <h1>Get Your Unique Taste</h1>
+
+        <!-- cards -->
+        <div class="menu_cards">
+            <!-- Indian Food -->
+            <div class="all_cards">
+                <h2>Indian Food</h2>
+                <div class="cards">
+
+                <div class="card" id="card_one">
+                    <img class="food_img" src="img/menu_img/masala_dosa.png" alt="ind_f1 img">
+                    <p class="food_name">Masala dosa</p>
+                    <p class="price">₹ 50</p>
+                    <button onclick=addCard(0) class="add_cart">Add to tummy</button>
+                </div>
+
+                <div class="card" id="card_tow">
+                    <img class="food_img" src="img/menu_img/chaat.jpg" alt="ind_f2 img">
+                    <p class="food_name">Chaat</p>
+                    <p class="price">₹ 60</p>
+                    <button onclick=addCard(1) class="add_cart">Add to tummy</button>
+                </div>
+
+                <div class="card" id="card_three">
+                    <img class="food_img" src="img/menu_img/dal_makhani.cms" alt="ind_f3 img">
+                    <p class="food_name">Dal makhani</p>
+                    <p class="price">₹ 100</p>
+                    <button onclick=addCard(2) class="add_cart">Add to tummy</button>
+                </div>
+
+                <div class="card" id="card_four">
+                    <img class="food_img" src="img/menu_img/stuffed_paratha.webp" alt="ind_f4 img">
+                    <p class="food_name">Stuffed paratha</p>
+                    <p class="price">₹ 150</p>
+                    <button onclick=addCard(3) class="add_cart">Add to tummy</button>
+                </div>
+
+             </div>
+
+            </div>
+
+            <!-- Chinesse Food -->
+            <div class="all_cards">
+                <h2>Chinesse Food</h2>
+                <div class="cards">
+
+                <div class="card" id="card_one">
+                    <img class="food_img" src="img/menu_img/KungPaoChicken.png" alt="ind_f1 img">
+                    <p class="food_name">Kung Pao Chicken</p>
+                    <p class="price">₹ 50</p>
+                    <button onclick=addCard(4) class="add_cart">Add to tummy</button>
+                </div>
+
+                <div class="card" id="card_two">
+                    <img class="food_img" src="img/menu_img/ChowMein.png" alt="ind_f2 img">
+                    <p class="food_name">Chow Mein</p>
+                    <p class="price">₹ 60</p>
+                    <button onclick=addCard(5) class="add_cart">Add to tummy</button>
+                </div>
+
+                <div class="card" id="card_three">
+                    <img class="food_img" src="img/menu_img/ChineseHotPot.png" alt="ind_f3 img">
+                    <p class="food_name">Chinese Hot Pot</p>
+                    <p class="price">₹ 100</p>
+                    <button onclick=addCard(6) class="add_cart">Add to tummy</button>
+                </div>
+
+                <div class="card" id="card_four">
+                    <img class="food_img" src="img/menu_img/MapoTofu.jpg" alt="ind_f4 img">
+                    <p class="food_name">Mapo Tofu</p>
+                    <p class="price">₹ 150</p>
+                    <button onclick=addCard(7) class="add_cart">Add to tummy</button>
+                </div>
+
+             </div>
+
+            </div>
+
+            <!-- Italy Food -->
+            <div class="all_cards">
+                <h2>Italy Food</h2>
+                <div class="cards">
+
+                <div class="card" id="card_one">
+                    <img class="food_img" src="img/menu_img/pizza.png" alt="ind_f1 img">
+                    <p class="food_name">Pizza</p>
+                    <p class="price">₹ 50</p>
+                    <button onclick=addCard(8) class="add_cart">Add to tummy</button>
+                </div>
+
+                <div class="card" id="card_two">
+                    <img class="food_img" src="img/menu_img/pasta.png" alt="ind_f2 img">
+                    <p class="food_name">Pasta</p>
+                    <p class="price">₹ 60</p>
+                    <button onclick=addCard(9) class="add_cart">Add to tummy</button>
+                </div>
+
+                <div class="card" id="card_three">
+                    <img class="food_img" src="img/menu_img/Arancini.jpg" alt="ind_f3 img">
+                    <p class="food_name">Arancini</p>
+                    <p class="price">₹ 100</p>
+                    <button onclick=addCard(10) class="add_cart">Add to tummy</button>
+                </div>
+
+                <div class="card" id="card_four">
+                    <img class="food_img" src="img/menu_img/Focaccia.jpg" alt="ind_f4 img">
+                    <p class="food_name">Focaccia</p>
+                    <p class="price">₹ 150</p>
+                    <button onclick=addCard(11) class="add_cart">Add to tummy</button>
+                </div>
+
+             </div>
+
+            </div>
+
+            <!-- Thailand Food -->
+            <div class="all_cards">
+                <h2>Thailand Food</h2>
+                <div class="cards">
+
+                <div class="card" id="card_one">
+                    <img class="food_img" src="img/menu_img/Chicken_in_coconut_soup.jpg" alt="ind_f1 img">
+                    <p class="food_name">Chicken in coconut soup</p>
+                    <p class="price">₹ 50</p>
+                    <button onclick=addCard(12) class="add_cart">Add to tummy</button>
+                </div>
+
+                <div class="card" id="card_two">
+                    <img class="food_img" src="img/menu_img/Red_curry.png" alt="ind_f2 img">
+                    <p class="food_name">Red curry</p>
+                    <p class="price">₹ 60</p>
+                    <button onclick=addCard(13) class="add_cart">Add to tummy</button>
+                </div>
+
+                <div class="card" id="card_three">
+                    <img class="food_img" src="img/menu_img/Thai-style_fried_noodles.jpg" alt="ind_f3 img">
+                    <p class="food_name">Thai-style fried noodles</p>
+                    <p class="price">₹ 100</p>
+                    <button onclick=addCard(14) class="add_cart">Add to tummy</button>
+                </div>
+
+                <div class="card" id="card_four">
+                    <img class="food_img" src="img/menu_img/Fried_rice.avif" alt="ind_f4 img">
+                    <p class="food_name">Fried rice</p>
+                    <p class="price">₹ 150</p>
+                    <button onclick=addCard(15) class="add_cart">Add to tummy</button>
+                </div>
+
+             </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Menu Card Ends -->
+</body>
+<script src="menu.js"></script>
+</html>

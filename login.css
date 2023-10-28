@@ -150,3 +150,37 @@
 .text_link img{
     cursor: pointer;
 }
+
+
+/* MEDIA QUERY */
+@media (max-width: 1330px) {
+    .login_items{
+        width: 34vw;
+        margin-left: 15px;
+    }
+    .signup{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 992px){
+    .login_items{
+        width: 80vw;
+        margin-left: 5px;
+    }
+    .signup{
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 290px){
+    .login_items{
+        width: 85vw;
+        height: 77vh;
+        margin-left: 2px;
+    }
+
+    .signup{
+        margin-left: 90px;
+    }
+}

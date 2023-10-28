@@ -132,3 +132,41 @@ form button:hover{
 .text_link img{
     cursor: pointer;
 }
+
+
+/* MEDIA QUERY */
+@media (max-width: 1330px) {
+    .signup{
+        width: 40vw;
+        margin-left: 15px;
+    }
+    .login{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 992px){
+    .signup{
+        width: 98vw;
+        height: 90vh;
+        margin-left: 2px;
+    }
+    .login{
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 290px){
+    .signup{
+        width: 100vw;
+        height: 90vh;
+        margin-left: 1px;
+    }
+
+    .signup .head{
+        font-size: 27px;
+    }
+    .login{
+        margin-left: 90px;
+    }
+}

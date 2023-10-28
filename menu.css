@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    /* border: 2px solid #6495ed; */
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo img{
+    height: 40px;
+    margin-left: 5rem;
+}
+
+.header .nav_button p{
+    position: absolute;
+    right: 2.8rem;
+    top: 1rem;
+    font-size: 1.4rem;
+}
+
+
+.header .nav_button{
+    margin-right: 3rem;
+}
+
+.nav_button{
+    /* border: 2px solid #000; */
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 13rem;
+}
+
+.nav_button button{
+    padding: 12px 30px;
+    border: none;
+    background: #808080;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #808080;
+    margin-right: 40px;
+    
+}
+
+.nav_button button::placeholder{
+    letter-spacing: 1px;
+}
+
+.nav_button a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+}
+
+.nav_button a img{
+    height: 30px;
+}
+
+.nav_button .home{
+    margin-right: 5px;
+}
+
+.container{
+    /* background-color: #f0f0f0; */
+    width: 100%;
+    text-align: center;
+}
+
+.container h1{
+    font-family: 'Poppins', sans-serif;
+    color: #808080;
+    margin: 2rem 0;
+}
+
+.menu_cards{
+    /* background-color: #000; */
+    /* border: 2px solid #ff0000; */
+    width: 80%;
+    margin-left: 10%;
+}
+
+.all_cards{
+    /* border: 2px solid #ff0ff0; */
+    padding: 12px 0;
+    border-bottom: 2px solid #808080;
+}
+
+.all_cards h2{
+    padding: 15px 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+}
+
+.all_cards .cards{
+    /* border: 2px solid #008000; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 12px;
+}
+
+.food_img{
+    height: 8rem;
+    width: 9rem;
+}
+
+.card{
+    /* border: 2px solid #992001; */
+    padding: 4rem 5rem;
+}
+
+.card img, .card .food_name, .card .price{
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card .food_name{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.card .price{
+    font-size: 20px;
+}
+
+.card button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
